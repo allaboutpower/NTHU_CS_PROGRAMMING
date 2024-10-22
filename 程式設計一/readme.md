@@ -1,4 +1,4 @@
-#gcd
+# gcd
 
 ```c
 #include <stdio.h> 
