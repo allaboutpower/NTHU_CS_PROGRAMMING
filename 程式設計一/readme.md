@@ -1,3 +1,6 @@
+#gcd
+
+'''c
 #include <stdio.h> 
 #include <math.h>
 #include <string.h>
@@ -15,4 +18,4 @@ int gcd(int a, int b){
     if(b==0) return a; 
     else return gcd(b, a%b);    
 }
-
+'''
