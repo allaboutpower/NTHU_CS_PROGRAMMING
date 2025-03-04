@@ -1,3 +1,4 @@
+#                          死神班長
 # gcd
 
 ```c
@@ -19,5 +20,5 @@ int gcd(int a, int b){
     else return gcd(b, a%b);    
 }
 ```
-# 死神班長
+
   
