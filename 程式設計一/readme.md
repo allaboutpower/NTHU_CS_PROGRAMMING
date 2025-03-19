@@ -1,5 +1,5 @@
 #                     死神班長
-# gcd 找最大公因數
+# gcd 最大公因數
 
 ```c
 #include <stdio.h> 
