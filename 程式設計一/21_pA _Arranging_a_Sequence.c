@@ -13,7 +13,7 @@ int main(){
     for(int i=1; i<=m;i++){
         scanf("%d", &req[i]);
     }
-    for(int i=1; i<=m;i--){
+    for(int i=m; i>=1;i--){
         if(num[req[i]]!=0){
             num[req[i]]=0;
         }
