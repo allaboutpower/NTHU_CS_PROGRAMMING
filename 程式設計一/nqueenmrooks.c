@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+#define size n+m 
 int board[14][14];
-int n, m, size; // n queens, m rooks, size = board size
+int n, m; // n queens, m rooks, size = board size
 int ans;
 
 int ok(int row, int col) {
@@ -42,7 +42,7 @@ void solve(int row, int qcnt, int rcnt) {
 }
 
 int main() {
-    scanf("%d %d %d", &size, &n, &m); // size of board, n queens, m rooks
+    scanf("%d %d", &size, &n, &m); // size of board, n queens, m rooks
     ans = 0;
     solve(0, 0, 0);
     printf("%d\n", ans);
