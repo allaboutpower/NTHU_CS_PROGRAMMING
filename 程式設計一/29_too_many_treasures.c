@@ -26,10 +26,7 @@ int main(){
     while(q--){
         int l, r, m;
         scanf("%d %d %d", &l, &r, &m);
-        if(r-l+1 == m){
-            printf("%lld\n", pre[r]-pre[l-1]);
-        }
-        else printf("%lld\n", pre[l+m-1]-pre[l-1]);
+        printf("%lld\n", pre[l+m-1]-pre[l-1]);
     }
     return 0;
 }
