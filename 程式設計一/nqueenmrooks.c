@@ -42,7 +42,7 @@ void solve(int row, int qcnt, int rcnt) {
 }
 
 int main() {
-    scanf("%d %d", &size, &n, &m); // size of board, n queens, m rooks
+    scanf("%d %d",&n, &m); // size of board, n queens, m rooks
     ans = 0;
     solve(0, 0, 0);
     printf("%d\n", ans);
