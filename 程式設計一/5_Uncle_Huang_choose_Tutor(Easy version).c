@@ -26,14 +26,11 @@ int solveJosephus(Node **head, int step)
     return recursive(n, step);
 }
 
-int recursive(int n, int k){
-    if(n==1) return 1;
-    if(recursive(n-1, k)>n){
-        return recursive(n-1, k)+k-n;
-    }
-    return recursive(n-1, k)+k;   
-
+int recursive(int n, int k) {
+    if (n == 1) return 1;
+    return (recursive(n - 1, k) + k - 1) % n + 1;
 }
+
 
 
 
