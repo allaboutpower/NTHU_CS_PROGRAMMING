@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 typedef struct _Node{
     int number;
     struct _Node* next;
@@ -8,36 +9,31 @@ typedef struct _Node{
 
 Node *createList(int n)
 {
-    Node* head = (Node*)malloc(sizeof(Node));
-    head->number = n;
+    Node *head = (Node*)malloc(sizeof(Node));
     head->next = NULL;
+    head->number = n;
     return head;
 }
-
 void freeList(Node* head)
 {
     free(head);
     return;
 }
 int solveJosephus(Node **head, int step)
-{   
+{
     int n = (*head)->number;
-    //printf("%d %d\n", n, step);
     return recursive(n, step);
 }
 
-int recursive(int n, int k) {
-    if (n == 1) return 1;
-    return (recursive(n - 1, k) + k - 1) % n + 1;
+int recursive(int n, int k){
+    if(n==1)return 1;
+    return (recursive(n-1, k)+k-1)%n+1;
 }
-
-
-
 
 int main()
 {
     int n, k;
-    while( scanf("%d%d", &n, &k)!= EOF )
+    while( scanf("%d%d", &n, &k)!=EOF )
    {
         Node *head;
         head = createList(n);
