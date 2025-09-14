@@ -26,5 +26,5 @@ int main(){
     }
 
     permutation2(0, 1);
-
+    return 0;
 }
