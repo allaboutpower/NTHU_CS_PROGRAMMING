@@ -1,4 +1,3 @@
-# NTHU-CS-PROGRAMMING-
+# NTHU-PROGRAMMING-COURSE
 ## This is allaboutpower from nthu ieem
-## start coding 
   
