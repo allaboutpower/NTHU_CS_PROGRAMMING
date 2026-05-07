@@ -1,3 +1,3 @@
 # NTHU-PROGRAMMING-COURSE
 
-這是我在修習資工在下學期開放給外系的計算機程式設計一、二時，所做過的考試練習題與作業題，內容包括迴圈、陣列、遞迴、linked list、oop、DFS,BFS。
+These projects and exercises were completed during the Computer Programming I and II courses offered by the Department of Computer Science to non-major students. The coursework covered fundamental and advanced programming concepts, including loops, arrays, recursion, linked lists, object-oriented programming (OOP), Depth-First Search (DFS), and Breadth-First Search (BFS).
